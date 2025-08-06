@@ -1,0 +1,61 @@
+.promoPage{
+    height: 640px;
+    background-image: url('./img/Background.png');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+&__title{
+    padding-bottom: 30px;
+}
+&__subtitle{
+    margin-bottom:15px;
+}
+&__button{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: none;
+    font-size: 16px;
+    color:white;
+    transition: 0.3s;
+}
+
+&__button:hover{
+    cursor:pointer;
+    background-color: white;
+    color: black;
+
+}
+}
+
+.aboutUs{
+    margin: 80px auto;
+    width: 690px;
+    &__title{
+        font-weight: normal;
+    }
+}
+
+.ourBest{
+    padding: 80px 0 110px 0;
+    height: 500px;
+    background-image: url('./img/BackgroundOurBest.png');
+    background-size: cover;
+    background-position: center;
+    
+    h1{
+        margin-bottom: 50px;
+    }
+
+    &__cards{
+        display: flex;
+        justify-content: center;
+        gap: 70px
+    }
+}

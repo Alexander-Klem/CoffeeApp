@@ -1,0 +1,15 @@
+.CardPage{
+    height: 260px;
+    background: url('./img/Background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+    h1{
+        color:white;
+        font-size: 40px;
+        font-weight: 500;
+    }
+}

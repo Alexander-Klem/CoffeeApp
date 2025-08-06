@@ -1,0 +1,15 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap: 40px; 
+&__navigation{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+&__decor{
+    margin-bottom: 20px;
+}
+}

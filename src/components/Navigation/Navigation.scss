@@ -1,0 +1,33 @@
+.Navigation{
+ ul{
+    display: flex;
+    list-style-type: none;
+    align-items:end;
+    padding: 0;
+    margin: 0;
+    li{
+        padding-right: 30px;
+        font-size: 14px;
+        
+
+        a{
+            color:black;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .blackColorText{
+            color:black;
+        }
+        .whiteColorText{
+            color:white;
+        }
+    }
+    a:hover{
+        cursor: pointer;
+        color: #CCB188;
+    }
+    li:last-child{
+        padding-right: 0;
+    }
+}
+}

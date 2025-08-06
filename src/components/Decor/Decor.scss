@@ -1,0 +1,18 @@
+.Divider{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    &__blackLine{
+        background-color: black;
+        display: inline-block;
+        width: 60px;
+        height: 2px;
+    }
+    &__whiteLine{
+        background-color: white;
+        display: inline-block;
+        width: 60px;
+        height: 2px;
+    }
+}
