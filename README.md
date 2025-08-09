@@ -14,7 +14,7 @@
 
 1. Склонируйте проект:
    ```bash
-   git clone https://github.com/Alexander-Klem/Dictionary.git](https://github.com/Alexander-Klem/CoffeeApp.git
+   git clone https://github.com/Alexander-Klem/CoffeeApp.git
    ```
 2. Установите зависимости:
    ```bash
